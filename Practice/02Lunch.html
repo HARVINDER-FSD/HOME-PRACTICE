@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f8f8f8;
+        }
+
+        .menu-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 0; /* No gap between columns */
+            border: 1px solid #ddd;
+            background-color: #fff;
+            width: 80%;
+            max-width: 1200px;
+        }
+
+        .menu-item {
+            padding: 20px;
+            border-right: 1px solid #ddd;
+        }
+
+        .menu-item:last-child {
+            border-right: none; /* Remove border from the last item in each row */
+        }
+
+        .menu-section {
+            display: contents; /* Ensures the border between sections */
+        }
+
+        .menu-section:nth-child(even) .menu-item {
+            background-color: #f9f9f9; /* Alternating background color */
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <div class="menu-section">
+            <div class="menu-item">Chicken salad</div>
+            <div class="menu-item">Avocado tea sandwiches</div>
+            <div class="menu-item">Asian quinoa salad</div>
+            <div class="menu-item">Lobia Masala Recipe</div>
+        </div>
+        <div class="menu-section">
+            <div class="menu-item">cheese paneer butter masala</div>
+            <div class="menu-item">paneer dry</div>
+            <div class="menu-item">mung dall</div>
+            <div class="menu-item">Rice</div>
+        </div>
+        <div class="menu-section">
+            <div class="menu-item">Yougert</div>
+            <div class="menu-item">chocolate ice cream</div>
+            <div class="menu-item">honey</div>
+            <div class="menu-item">browni</div>
+        </div>
+        <div class="menu-section">
+            <div class="menu-item">coco cola</div>
+            <div class="menu-item">sprite</div>
+            <div class="menu-item">mojito</div>
+            <div class="menu-item">cocktail</div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
