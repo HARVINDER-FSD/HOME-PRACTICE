@@ -1,0 +1,25 @@
+
+body{
+    height: 100px;
+}
+.a{
+    background-color:burlywood;
+    font-size: 30px;
+    
+
+}
+   
+.b{
+    
+   background-color:rgb(192, 148, 91);
+   text-shadow:2px 2px 2px  white;
+   font-size: 40px;
+
+}
+.a1{
+    
+    height: 100px;
+}
+.b1{
+    height: 100px;
+}
